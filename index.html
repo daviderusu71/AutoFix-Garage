@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AutoFix Garage X - premium futuristic automotive repair, diagnostics, spare parts, and booking.">
+  <title>AutoFix Garage X | Premium Auto Repair</title>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" aria-label="Loading AutoFix Garage X">
+    <div class="loader-ring"></div>
+    <span>AutoFix Garage X</span>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#hero" class="brand" aria-label="AutoFix Garage X home">
+      <span class="brand-mark">X</span>
+      <span>AutoFix Garage X</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="#services">Services</a>
+      <a href="#diagnostics">Diagnostics</a>
+      <a href="#parts">Parts</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <i data-lucide="moon"></i>
+    </button>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Futuristic automotive service center</p>
+        <h1>Precision Repairs. Maximum Performance.</h1>
+        <p class="hero-copy">Elite diagnostics, certified technicians, premium parts, and cinematic service bays built for high-performance vehicles.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#booking"><i data-lucide="calendar-check"></i>Book Service</a>
+          <a class="btn btn-ghost" href="#estimator"><i data-lucide="badge-euro"></i>Get Quote</a>
+        </div>
+      </div>
+      <div class="hero-panel glass reveal">
+        <span class="panel-label">Live Bay Status</span>
+        <strong>4.9/5</strong>
+        <p>312 premium repairs this month</p>
+        <div class="mini-metrics">
+          <span><b data-counter="98">0</b>% Accuracy</span>
+          <span><b data-counter="24">0</b>h Express</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Precision service modules</p>
+        <h2>Premium repair systems</h2>
+      </div>
+      <div class="card-grid service-grid">
+        <article class="service-card glass reveal"><i data-lucide="cog"></i><h3>Engine Repair</h3><p>Timing, cooling, fuel delivery, and complete performance restoration.</p></article>
+        <article class="service-card glass reveal"><i data-lucide="scan-line"></i><h3>Diagnostics</h3><p>OBD analysis, sensor mapping, fault isolation, and road-ready reporting.</p></article>
+        <article class="service-card glass reveal"><i data-lucide="droplets"></i><h3>Oil Service</h3><p>Synthetic oil, filters, fluid top-ups, and efficiency inspection.</p></article>
+        <article class="service-card glass reveal"><i data-lucide="git-branch"></i><h3>Transmission Repair</h3><p>Gearbox servicing, clutch checks, shift calibration, and leak control.</p></article>
+        <article class="service-card glass reveal"><i data-lucide="disc-3"></i><h3>Brake System</h3><p>Pads, rotors, ABS checks, calipers, and performance brake packages.</p></article>
+        <article class="service-card glass reveal"><i data-lucide="package-check"></i><h3>Spare Parts</h3><p>Pezzi di Ricambio: batteries, filters, brakes, belts, and engine components.</p></article>
+      </div>
+    </section>
+
+    <section id="diagnostics" class="section diagnostics">
+      <div class="diagnostic-shell glass reveal">
+        <div>
+          <p class="eyebrow">Live diagnostic area</p>
+          <h2>Mechanic intelligence console</h2>
+          <p>Simulated scan telemetry for engine health, repair progress, vehicle checks, and road-test readiness.</p>
+          <div class="scan-orbit" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="diagnostic-bars">
+          <div class="diag-row"><span>Engine Scan</span><b>92%</b><div><i style="--w:92%"></i></div></div>
+          <div class="diag-row"><span>Repair Status</span><b>76%</b><div><i style="--w:76%"></i></div></div>
+          <div class="diag-row"><span>Vehicle Check</span><b>88%</b><div><i style="--w:88%"></i></div></div>
+          <div class="diag-row"><span>Performance Sync</span><b>64%</b><div><i style="--w:64%"></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="parts" class="section parts">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Spare parts store</p>
+        <h2>Pezzi di Ricambio curated for reliability</h2>
+      </div>
+      <div class="parts-grid">
+        <article class="part-card reveal">
+          <img src="https://images.pexels.com/photos/10490611/pexels-photo-10490611.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Engine component inspection">
+          <span>Engine Components</span><h3>Performance Filter Kit</h3><p>OEM-grade intake and oil filtration set.</p><strong>€89</strong>
+        </article>
+        <article class="part-card reveal">
+          <img src="https://images.pexels.com/photos/6870304/pexels-photo-6870304.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Brake repair in service bay">
+          <span>Brakes</span><h3>Ceramic Brake Pads</h3><p>Low-dust pads with quiet-stop compound.</p><strong>€145</strong>
+        </article>
+        <article class="part-card reveal">
+          <img src="https://images.pexels.com/photos/5260115/pexels-photo-5260115.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Tire replacement equipment">
+          <span>Tires</span><h3>Sport Tire Mounting</h3><p>Balanced installation for road and touring.</p><strong>€72</strong>
+        </article>
+        <article class="part-card reveal">
+          <img src="https://images.pexels.com/photos/20867316/pexels-photo-20867316.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Detailed engine parts">
+          <span>Batteries</span><h3>AGM Battery 80Ah</h3><p>High-cycle battery with installation check.</p><strong>€189</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="estimator" class="section estimator">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Price estimator</p>
+        <h2>Transparent service pricing</h2>
+      </div>
+      <div class="price-grid">
+        <article class="price-card glass reveal"><h3>Oil Change</h3><strong>from €79</strong><p>Premium oil, filter, fluid check.</p></article>
+        <article class="price-card glass reveal"><h3>Brake Repair</h3><strong>from €165</strong><p>Pads, rotor inspection, safety test.</p></article>
+        <article class="price-card glass reveal"><h3>Battery Change</h3><strong>from €149</strong><p>AGM/EFB battery, coding, disposal.</p></article>
+        <article class="price-card glass reveal"><h3>Diagnostics</h3><strong>from €59</strong><p>OBD scan and technician report.</p></article>
+        <article class="price-card glass reveal"><h3>Gearbox Service</h3><strong>from €390</strong><p>Fluid, seals, calibration check.</p></article>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking">
+      <div class="booking-layout">
+        <div class="booking-copy reveal">
+          <p class="eyebrow">Booking system</p>
+          <h2>Reserve a service bay</h2>
+          <p>Send your vehicle details and preferred service. Our front desk confirms the appointment by phone or WhatsApp.</p>
+        </div>
+        <form class="booking-form glass reveal">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Phone<input type="tel" name="phone" placeholder="+39 333 000 0000" required></label>
+          <label>Vehicle brand<input type="text" name="brand" placeholder="BMW, Audi, Mercedes..." required></label>
+          <label>Vehicle model<input type="text" name="model" placeholder="Model and year" required></label>
+          <label>Date<input type="date" name="date" required></label>
+          <label>Service selection<select name="service" required>
+            <option value="">Select service</option>
+            <option>Engine repair</option><option>Oil change</option><option>Brake repair</option><option>Diagnostics</option><option>Car service</option><option>Tire replacement</option><option>Gearbox repair</option><option>Spare parts</option><option>Battery replacement</option><option>Suspension repair</option>
+          </select></label>
+          <button class="btn btn-primary" type="submit"><i data-lucide="send"></i>Request Booking</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section before-after">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Before / after repairs</p>
+        <h2>Visible transformation, verified performance</h2>
+      </div>
+      <div class="comparison glass reveal">
+        <img src="https://images.pexels.com/photos/8986041/pexels-photo-8986041.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Before repair service bay" class="after-img">
+        <div class="before-layer">
+          <img src="https://images.pexels.com/photos/6870311/pexels-photo-6870311.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="After tire inspection service bay">
+        </div>
+        <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare before and after repairs">
+        <span class="compare-handle" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="section reviews">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Client reviews</p>
+        <h2>Trusted by performance drivers</h2>
+      </div>
+      <div class="review-slider glass reveal">
+        <button class="icon-btn review-prev" aria-label="Previous review"><i data-lucide="chevron-left"></i></button>
+        <blockquote>
+          <p class="review-text"></p>
+          <footer class="review-author"></footer>
+        </blockquote>
+        <button class="icon-btn review-next" aria-label="Next review"><i data-lucide="chevron-right"></i></button>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="section-heading reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>Fast answers before the lift</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details><summary>Do you work on premium and performance vehicles?</summary><p>Yes. We service daily drivers, premium brands, SUVs, hybrids, and performance vehicles with diagnostic-led workflows.</p></details>
+        <details><summary>Can I get a quote before repair?</summary><p>Yes. Diagnostics and inspection findings are reviewed before major work begins.</p></details>
+        <details><summary>Do you sell spare parts?</summary><p>Yes. Our Pezzi di Ricambio store includes batteries, brakes, filters, tire services, and selected engine components.</p></details>
+        <details><summary>Is WhatsApp booking available?</summary><p>Yes. Use the floating button or contact section for quick appointment requests.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-grid">
+        <div class="contact-card glass reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>AutoFix Garage X</h2>
+          <a href="https://wa.me/393330000000" target="_blank" rel="noreferrer"><i data-lucide="message-circle"></i>WhatsApp +39 333 000 0000</a>
+          <a href="tel:+393330000000"><i data-lucide="phone"></i>Click to call</a>
+          <a href="mailto:service@autofixgaragex.com"><i data-lucide="mail"></i>service@autofixgaragex.com</a>
+          <a href="https://maps.google.com/?q=AutoFix%20Garage%20X%20Milan" target="_blank" rel="noreferrer"><i data-lucide="map-pin"></i>Open Google Maps</a>
+          <p class="hours"><strong>Opening hours</strong><br>Mon-Fri 08:00-19:00<br>Sat 09:00-14:00</p>
+        </div>
+        <form class="contact-form glass reveal">
+          <label>Name<input type="text" placeholder="Name"></label>
+          <label>Email<input type="email" placeholder="Email"></label>
+          <label>Message<textarea placeholder="Tell us what your vehicle needs"></textarea></label>
+          <button class="btn btn-primary" type="submit"><i data-lucide="sparkles"></i>Send Message</button>
+        </form>
+        <iframe class="map reveal" title="Google Maps location" loading="lazy" src="https://www.google.com/maps?q=Auto%20Repair%20Milan&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-book btn btn-primary" href="#booking"><i data-lucide="calendar-plus"></i>Book</a>
+  <button class="back-to-top icon-btn" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span class="brand-mark">X</span>
+      <strong>AutoFix Garage X</strong>
+      <p>Precision repairs for maximum performance.</p>
+    </div>
+    <nav aria-label="Footer navigation">
+      <a href="#hero">Home</a><a href="#services">Services</a><a href="#parts">Parts</a><a href="#booking">Booking</a><a href="#contact">Contact</a>
+    </nav>
+    <div>
+      <h3>Follow Us</h3>
+      <div class="socials">
+        <a aria-label="Instagram" href="#"><i data-lucide="instagram"></i></a>
+        <a aria-label="Facebook" href="#"><i data-lucide="facebook"></i></a>
+        <a aria-label="WhatsApp" href="https://wa.me/393330000000"><i data-lucide="message-circle"></i></a>
+        <a aria-label="Map" href="https://maps.google.com/?q=AutoFix%20Garage%20X%20Milan"><i data-lucide="map"></i></a>
+      </div>
+      <p>Mon-Fri 08:00-19:00<br>Sat 09:00-14:00</p>
+    </div>
+    <p class="copyright">© 2026 AutoFix Garage X. All rights reserved.</p>
+  </footer>
+</body>
+</html>
